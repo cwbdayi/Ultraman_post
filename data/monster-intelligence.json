@@ -1,0 +1,96 @@
+{
+  "version": "1.0",
+  "title": "超人力霸王傑洛：宇宙決戰",
+  "tagline": "當音波撕裂宇宙，英雄必須迎戰。",
+  "resolution": {
+    "width": 3840,
+    "height": 2160
+  },
+  "fictional": true,
+  "mainEnemy": "宇宙咆嘯獸",
+  "habitatIndex": {
+    "lake": 90,
+    "sea": 75,
+    "desert": 15,
+    "swamp": 12
+  },
+  "habitatIndexNote": "故事設定的示意指數，不是實際概率",
+  "roar": [
+    {
+      "time": "06:00",
+      "level": "低頻"
+    },
+    {
+      "time": "12:00",
+      "level": "中頻升高"
+    },
+    {
+      "time": "21:00",
+      "level": "極高頻"
+    }
+  ],
+  "monsters": [
+    {
+      "id": "01",
+      "name": "宇宙咆嘯獸",
+      "habitat": "深湖",
+      "danger": "S"
+    },
+    {
+      "id": "02",
+      "name": "深淵裂鰭獸",
+      "habitat": "海域",
+      "danger": "A"
+    },
+    {
+      "id": "03",
+      "name": "銀殼震刺獸",
+      "habitat": "湖泊",
+      "danger": "A"
+    },
+    {
+      "id": "04",
+      "name": "潮鳴重甲獸",
+      "habitat": "海域",
+      "danger": "A"
+    },
+    {
+      "id": "05",
+      "name": "沼影鳴甲獸",
+      "habitat": "沼澤",
+      "danger": "B"
+    },
+    {
+      "id": "06",
+      "name": "砂脈伏吼獸",
+      "habitat": "沙漠",
+      "danger": "B"
+    }
+  ],
+  "weapons": [
+    {
+      "id": "ZR–01",
+      "name": "星核光刃",
+      "scores": "破壞 92 · 速度 88",
+      "official": false
+    },
+    {
+      "id": "ZR–02",
+      "name": "聲震裂光砲",
+      "scores": "破壞 95 · 貫穿 91",
+      "official": false
+    },
+    {
+      "id": "ZR–03",
+      "name": "重力束縛環",
+      "scores": "拘束 90 · 命中 82",
+      "official": false
+    },
+    {
+      "id": "ZR–04",
+      "name": "零式天穹護盾",
+      "scores": "防禦 94 · 抗音波 96",
+      "official": false
+    }
+  ]
+}
